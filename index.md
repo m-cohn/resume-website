@@ -1,37 +1,113 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
 
-You can use the [editor on GitHub](https://github.com/m-cohn/m-cohn.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Resume</title>
+</head>
+<body>
+    <img src="header.jpg" alt="header image" width="1204" height="160">
+    <br>
+    <nav>
+        <a href="#Education">Education</a>
+        <a href="#Experience">Experience</a>
+        <a href="#Computer Skills">Computer Skills</a>
+        <a href="#Projects">Projects</a>
+        <a href="#Leadership/Activities">Leadership/Activities</a>
+        <a href="#Honors">Honors</a>
+    </nav>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+    <div id="page-banner" class="banner">
+        <h1>Madelyn Cohn</h1>
+    </div>
 
-### Markdown
+    <div id="contact-info">
+        <span><b>College Address:</b> Blacksburg, VA 24061<br></span>
+        <span><b>Permanent Address:</b> Gloucester, VA 23061<br><br></span>
+        <span><b>Email:</b> mcohn@vt.edu<br></span>
+        <span><b>Phone:</b> (757)707-6238<br></span>
+        <span><b>LinkedIn:</b> 
+            <a href="https://www.linkedin.com/in/madelyn-cohn-964649160/" target="_blank">https://www.linkedin.com/in/madelyn-cohn-964649160/</a>
+        <br></span>
+    </div>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+    <section id="Education">
+        <h2>Education</h2>
+        <p>B.S. Computer Science, minor in Cinema and Math, 3.68/4.00, May 2023, Virginia Tech, Blacksburg, VA<br><br></p>
+    </section>
 
-```markdown
-Syntax highlighted code block
+    <section id="Experience">
+        <h2>Experience</h2>
 
-# Header 1
-## Header 2
-### Header 3
+        <span>Immersive Developer, ARIES at Virginia Tech, 2020-Present</span>
+        <ul>
+            <li>Operated an Insta360 Pro camera and H3 Zoom spatial audio recorder in indoor and outdoor environments</li>
+            <li>Stitched together raw footage to work for VR</li>
+            <li>Developing VR solar system science museum exhibit</li>
+        </ul>
 
-- Bulleted
-- List
+        <span>AR Researcher, Virginia Tech, 2020-Present</span>
+        <ul>
+            <li>Helped a multi-disciplinary team design an EMS mass-casualty incident training program for the Oculus Quest 2 and Microsoft Hololens 2 using the Mixed Reality Toolkit in Unity3D</li>
+            <li>Designed, modeled, and programmed the Rubber Hand Experiment for the Microsoft Hololens 1</li>
+        </ul>
 
-1. Numbered
-2. List
+        <span>Mentee, Christopher Newport University, Newport News, VA – 2018-2019</span>
+        <ul>
+            <li>Worked with a partner to learn how to program an Alexa Skill and work with Linux Ubuntu and Python in four months</li>
+        </ul>
+    </section>
 
-**Bold** and _Italic_ and `Code` text
+    <section id="Computer Skills">
+        <h2>Computer Skills</h2>
+        <p>Proficient: Java, C<br>
+        Intermediate: Python, MATLAB, HTML, Unity3D, Inventor, Rhino, Linux, Adobe Suite<br>
+        Beginner: Swift, Blender, Unreal Engine</p>
+    </section>
 
-[Link](url) and ![Image](src)
-```
+    <section id="Projects">
+        <h2>Projects</h2>
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+        <span>HackViolet, 2021</span>
+        <ul>
+            <li>Designed and built the environment for a VR puzzle game within a multidisciplinary team over the span of 24 hours</li>
+        </ul>
 
-### Jekyll Themes
+        <span>VT Hacks, 2020</span>
+        <ul>
+            <li>Worked in a group of three freshmen over the course of 48 hours</li>
+            <li>Built an Alexa Skill that would tell the user where parking was available</li>
+        </ul>
+    </section>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/m-cohn/m-cohn.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+    <section id="Leadership/Activities">
+        <h2>Leadership/Activities</h2>
 
-### Support or Contact
+        <span>Resident Advisor, 2021-present</span>
+        <ul>
+            <li>Oversee 45 residents personally, while being available to over 650</li>
+            <li>Meet individually with residents, plan and execute hall programs, and handle administrative work for the hall</li>
+        </ul>
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+        <span>Hypatia Engineering Residential Learning Community, 2019-present</span>
+        <ul>
+            <li>Oversaw 6 mentees during the height of the pandemic and assisted them in learning to reach their academic, professional, and personal goals</li>
+            <li>Reached the highest position available to an undergraduate student within the organization</li>
+            <li>Oversee 7 mentors and help plan and execute training events and provide advising for them to pass onto their composite 70 mentees</li>
+        </ul>
+
+        <span>Campus Tour Guide and College of Engineering Info Session Leader – 2020-present<br></span>
+
+        <span>The Marching Virginians – 2019-2021</span>
+    </section>
+
+    <section id="Honors">
+        <h2>Honors</h2>
+
+        <p>Davenport Leadership Scholar – 2019-present<br>
+        Virginia Tech Honor’s College – 2020-present<br>
+        Dean’s List – Fall 2019, Fall 2020, Spring 2021
+        </p>
+    </section>
+</body>
+</html>
